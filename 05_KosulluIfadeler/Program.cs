@@ -395,6 +395,27 @@
                     break;
             }
             //girilen ip adresine göre hangi siteye  yönlendirileceğini yazdırınız
+            Console.WriteLine("ip adresi giriniz");
+            string ipAdress = Console.ReadLine();
+
+            switch (ipAdress)
+            {
+                case "192.168.1.1":
+                    Console.WriteLine("google");
+                    break;
+                case "192.115.1.2":
+                    Console.WriteLine("amazon");
+                    break;
+
+                case "154.456.1.1":
+                    Console.WriteLine("yandex");
+                    break;
+
+                default:
+                    break;
+
+
+            }
         }
 
     }
